@@ -50,7 +50,8 @@ Multi-Statement functions can be used to do some unique operations outside the c
 
 #### *Fig4: Creating a multi-statement table-valued function*
 
-Example screenshots are captured from: 
+Example screenshots are captured from:
+
 [CREATE FUNCTION (Transact-SQL) - SQL Server | Microsoft Docs](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-function-transact-sql)
 
 ## Summary
