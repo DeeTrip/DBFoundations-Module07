@@ -13,6 +13,7 @@ The basic CREATE FUNCTION syntax is as follows –
 
 ### View And Functions
 In addition to SQL Server's built-in functions, you can create custom functions. These are often called User Defined Functions or just UDFs. There are two basic types of functions; functions that return a table of values and functions that return a single value.
-•	Functions and Views are similar as both can return a table of values.
-•	Unlike views, functions can use parameters to change the results of the query
-•	Unlike views, you can create UDFs to return a single (scalar) value as an expression.
+
+  Functions and Views are similar as both can return a table of values.
+  Unlike views, functions can use parameters to change the results of the query
+  Unlike views, you can create UDFs to return a single (scalar) value as an expression.
