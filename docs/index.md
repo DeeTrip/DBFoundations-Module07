@@ -11,7 +11,7 @@ The basic CREATE FUNCTION syntax is as follows –
  
 <img src="./Images/Figure1.png"/>
 
-#### *Fig1: Basic syntax of SQL function
+#### *Fig1: Basic syntax of SQL function*
 
 ### View And Functions
 In addition to SQL Server's built-in functions, you can create custom functions. These are often called User Defined Functions or just UDFs. There are two basic types of functions; functions that return a table of values and functions that return a single value.
@@ -34,4 +34,20 @@ A scalar function accepts any number of parameters and returns one value. The te
 
 <img src="./Images/Figure2.png"/>
 
-#### *Fig2: Using a scalar-valued user-defined function that calculates the ISO week
+#### *Fig2: Using a scalar-valued user-defined function that calculates the ISO week*
+
+### Inline Table-Valued Functions: 
+This type of function returns a result set, much like a view. However, unlike a view, functions can accept parameters. The inline function's syntax is quite simple. In the function definition, the return type is set to a table. A return statement is used with a select query in parenthesis.
+
+<img src="./Images/Figure3.png"/>
+
+#### *Fig3: Creating an inline table-valued function*
+
+### Multi-Statement Table-Valued Functions: 
+Multi-Statement functions can be used to do some unique operations outside the context of a standard SELECT statement. This type of function returns a table-type result set, but the table is explicitly constructed in script. This can be used to accomplish one of two things: either to process some unique business logic by assembling a virtual table on the fly, or to duplicate the functionality of an inline function in a more verbose and compiled way. In short, if you need to select records from an existing result set, use an inline table-valued function.
+
+<img src="./Images/Figure4.png"/>
+
+#### *Fig4: Creating a multi-statement table-valued function*
+
+[Example screenshots are captured from](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-function-transact-sql?f1url=%3FappId%3DDev15IDEF1%26l%3DEN-US%26k%3Dk(FUNCTION_TSQL)%3Bk(sql13.swb.tsqlresults.f1)%3Bk(sql13.swb.tsqlquery.f1)%3Bk(MiscellaneousFilesProject)%3Bk(DevLang-TSQL)%26rd%3Dtrue&view=sql-server-ver16)
