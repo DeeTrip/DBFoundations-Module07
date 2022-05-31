@@ -50,4 +50,7 @@ Multi-Statement functions can be used to do some unique operations outside the c
 
 #### *Fig4: Creating a multi-statement table-valued function*
 
-[Example screenshots are captured from](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-function-transact-sql?f1url=%3FappId%3DDev15IDEF1%26l%3DEN-US%26k%3Dk(FUNCTION_TSQL)%3Bk(sql13.swb.tsqlresults.f1)%3Bk(sql13.swb.tsqlquery.f1)%3Bk(MiscellaneousFilesProject)%3Bk(DevLang-TSQL)%26rd%3Dtrue&view=sql-server-ver16)
+Example screenshots are captured from: [CREATE FUNCTION (Transact-SQL) - SQL Server | Microsoft Docs](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-function-transact-sql?f1url=%3FappId%3DDev15IDEF1%26l%3DEN-US%26k%3Dk(FUNCTION_TSQL)%3Bk(sql13.swb.tsqlresults.f1)%3Bk(sql13.swb.tsqlquery.f1)%3Bk(MiscellaneousFilesProject)%3Bk(DevLang-TSQL)%26rd%3Dtrue&view=sql-server-ver16)
+
+## Summary
+SQL Views, Function & Stored Procedures are used to retrieve data from the database. SQL functions are used to return results in 3 different formats after taking inputs from the caller. SQL functions are most helpful in the scenarios where a piece of code has to be used in multiple places or there are complex manipulations of the data need to happen without updating the data in table.
