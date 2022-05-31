@@ -11,7 +11,7 @@ The basic CREATE FUNCTION syntax is as follows –
  
 <img src="./Images/Figure1.png"/>
 
-#### Fig1: Basic syntax of SQL function
+#### *Fig1: Basic syntax of SQL function
 
 ### View And Functions
 In addition to SQL Server's built-in functions, you can create custom functions. These are often called User Defined Functions or just UDFs. There are two basic types of functions; functions that return a table of values and functions that return a single value.
@@ -26,3 +26,12 @@ There are three types of user-defined functions in SQL Server:
 - Scalar Functions (Returns A Single Value)
 - Inline Table Valued Functions (Contains a single TSQL statement and returns a Table Set)
 - Multi-Statement Table Valued Functions (Contains multiple TSQL statements and returns Table Set)
+
+## Difference between different types of functions
+
+### Scalar Functions: 
+A scalar function accepts any number of parameters and returns one value. The term scalar differentiates a single, "flat" value from more complex structured values, such as arrays or result sets.  This pattern is much like that of traditional functions written in common programming language.
+
+<img src="./Images/Figure2.png"/>
+
+#### *Fig2: Using a scalar-valued user-defined function that calculates the ISO week
