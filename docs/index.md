@@ -17,3 +17,10 @@ In addition to SQL Server's built-in functions, you can create custom functions.
   - Functions and Views are similar as both can return a table of values.
   - Unlike views, functions can use parameters to change the results of the query
   - Unlike views, you can create UDFs to return a single (scalar) value as an expression.
+
+### Type of SQL functions
+There are three types of user-defined functions in SQL Server:
+
+- Scalar Functions (Returns A Single Value)
+- Inline Table Valued Functions (Contains a single TSQL statement and returns a Table Set)
+- Multi-Statement Table Valued Functions (Contains multiple TSQL statements and returns Table Set)
