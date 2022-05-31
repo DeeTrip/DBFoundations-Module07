@@ -7,5 +7,5 @@
 While a view is nothing more than a SQL statement that is stored in the database with an associated name. A function on the other hand returns a single value or a single result set after accepting input parameters.
 Functions **foster code reusability**. If there is need to repeatedly write large SQL scripts to perform the same task, then we can create a function that performs that task. Next time instead of rewriting the SQL, specific function can be called.
 The basic CREATE FUNCTION syntax is as follows –
-<img src="./docs/Images/Figure1.png"/>
+<img src="./Images/Figure1.png"/>
 #### Fig1: Basic syntax of SQL function 
